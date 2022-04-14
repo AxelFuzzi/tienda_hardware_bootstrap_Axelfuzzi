@@ -190,7 +190,7 @@ body{
 
 /*--------------Q&A--------------*/
 .qanda-container{
-    width: 100%;
+    width: 100vw;
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
@@ -201,16 +201,7 @@ body{
     margin-top: 1%;
     padding: 0%;
 }
-
-/*-----------productos------------*/
-.products-container{
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
+/*---------producto----------*/
 .product-container{
     border: 1px solid #ccc;
     padding: 20px;
@@ -282,18 +273,7 @@ h2{
         margin-right: 1%;
         height: 50%;
         position: relative;
-    }
-
-    /*-----productos------*/
-
-    .products-container{
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    
+    }   
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -325,31 +305,21 @@ h2{
         font-size: 63%;
     }
 
-        /*------publicidad-------*/
-        .about-amd{
-            display: flex;
-            margin-left: 1%;
-            margin-right: 1%;
-            height: 50%;
-            position: relative;
-        }
-    
-        .about-nvidia{
-            display: flex;
-            margin-left: 1%;
-            margin-right: 1%;
-            height: 50%;
-            position: relative;
-        }
+    /*------publicidad-------*/
+    .about-amd{
+        display: flex;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 50%;
+        position: relative;
+    }
 
-        /*-----productos------*/
-
-    .products-container{
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
-        padding-left: 5%;
-        padding-right: 5%;
+    .about-nvidia{
+        display: flex;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 50%;
+        position: relative;
     }
 }
 
